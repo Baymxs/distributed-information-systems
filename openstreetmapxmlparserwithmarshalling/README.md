@@ -1,4 +1,4 @@
-# Open Street Map Xml Parser
+# Open Street Map Xml Parser with JAXB marshalling
 Programm that process the input xml file in a bzip2 format archive containing Open Street Map data using the StAX API with JAXB marshalling.
 # Usage
 ---
