@@ -1,0 +1,2 @@
+CREATE INDEX nodes_dist1 ON nodes (earth_distance(ll_to_earth(55, 83), ll_to_earth(nodes.latitude, nodes.longitude)));
+CREATE INDEX nodes_dist2 ON nodes (earth_distance(ll_to_earth(54, 82), ll_to_earth(nodes.latitude, nodes.longitude)));
